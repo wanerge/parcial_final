@@ -7,14 +7,16 @@
 class cuerpo: public QGraphicsItem
 {
 public:
-    cuerpo(int r_, int x, int y);
+    cuerpo(float r_, float x, float y);
     ~cuerpo();
     QRectF boundingRect() const;
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget = nullptr);
 
+    float r;
+
 private:
-    int r;
-    int posx, posy;
+
+    float posx, posy;
 
 };
 

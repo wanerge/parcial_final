@@ -10,14 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     balas.cpp \
-    botones.cpp \
     cuerpo.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     balas.h \
-    botones.h \
     cuerpo.h \
     mainwindow.h
 

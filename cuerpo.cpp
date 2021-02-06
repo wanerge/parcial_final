@@ -1,6 +1,6 @@
 #include "cuerpo.h"
 
-cuerpo::cuerpo(int r_, int x, int y)
+cuerpo::cuerpo(float r_, float x, float y)
 {
     r = r_;
     posx = x;
